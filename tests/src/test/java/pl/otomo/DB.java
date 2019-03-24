@@ -79,7 +79,7 @@ public class DB {
             System.err.println(e.getClass().getName() + ": " + e.getMessage());
             System.exit(0);
         }
-        System.out.println("Records created successfully");
+        System.out.println("Record created successfully");
     }
 
     // Method select data from DB and create pdf report
