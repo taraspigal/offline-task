@@ -92,7 +92,7 @@ public class Tests {
                 try {
                     iphoner = Integer.parseInt(phoner);
                 } catch (NumberFormatException e){
-                    e.printStackTrace();
+                    iphoner = 0;
                 }
 
             } else {
